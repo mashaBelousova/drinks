@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+
+  ui:
+    build:
+      context: ui
+    ports:
+      - "4200:4200"
+    volumes:
+      - ../:/var/www:Z
+
+  mock-server:
+    build:
+      context: mock-server
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./mock-server/mock-server:/var/www:Z

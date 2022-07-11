@@ -1,0 +1,16 @@
+<div >
+  <div class="drink-list__title">
+    <span class="drink-list__title--font">{{title}}</span>
+  </div>
+  <form [formGroup]="form" *ngIf="!isLoading; else loading">
+    <div class="drink-list">
+      <div *ngFor="let drink of drinks" class="drink-list__drink">
+        <app-drink [drink]="drink" [formControlName]="drink.id"></app-drink>
+      </div>
+    </div>
+  </form>
+</div>
+
+<ng-template #loading>
+  <mat-spinner class="drink-list__spinner" [diameter]="60"></mat-spinner>
+</ng-template>

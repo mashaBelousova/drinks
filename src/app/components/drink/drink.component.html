@@ -1,0 +1,19 @@
+<div *ngIf="drink" class="drink">
+  <div class="drink__image" style="background-color: {{drink.color}}"></div>
+  <div class="drink-info drink__info">
+    <div class="drink-info__sponsored" *ngIf="drink.isSponsored">Sponsored</div>
+    <div class="drink-info__main">
+      <div class="drink-info__title">{{drink.name}}</div>
+      <div class="drink-info__size">{{drink.size}}l</div>
+    </div>
+    <div class="drink-info--bottom">
+      <div class="drink-info__price">{{drink.price}}</div>
+      <div class="drink-info__button">
+        <mat-icon class="drink-info__button--remove" aria-hidden="false" aria-label="Remove product" (click)="onRemove()">remove</mat-icon>
+        <div class="drink-info__button--count">{{quantity}}</div>
+        <mat-icon class="drink-info__button--add" aria-hidden="false" aria-label="Add product" (click)="onAdd()">add</mat-icon>
+        <div></div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,77 @@
+@import 'src/styles/utils';
+
+.drink {
+  display: flex;
+
+  &__image {
+    width: 75px;
+    height: 83px;
+    opacity: 0.4;
+  }
+
+  &__info {
+    padding-left: 20px;
+    flex-grow: 1
+  }
+}
+
+.drink-info {
+  &__sponsored {
+    color: $color-grey;
+    font-size: 12px;
+  }
+
+  &__main {
+    display: flex;
+    align-items: baseline;
+  }
+
+  &__title {
+    color: $color-grey-dark;
+    font-size: 16px;
+  }
+
+  &__size {
+    font-size: 12px;
+    padding-left: 6px;
+  }
+
+  &__price {
+    font-size: 20px;
+  }
+
+  &__button {
+    display: flex;
+    margin-left: auto;
+    background-color: $color-grey-light;
+    padding: 7px 9px;
+    border-radius: 20px;
+
+
+    &--remove, &--add {
+      border-radius: 20px;
+      cursor: pointer;
+    }
+
+    &--remove {
+      background-color: $color-white;
+    }
+
+    &--add {
+      color: $color-white;
+      background-color: $color-orange;
+    }
+
+    &--count {
+      font-size: 18px;
+      width: 40px;
+      text-align: center;
+    }
+  }
+
+  &--bottom {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+  }
+}

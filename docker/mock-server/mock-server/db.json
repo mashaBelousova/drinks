@@ -1,0 +1,68 @@
+{
+  "drinks": [
+    {
+      "id": "1",
+      "name": "Coca-Cola",
+      "isSponsored": "true",
+      "size": "0.5",
+      "price": "CHF 5.35",
+      "color": "red"
+    },
+    {
+      "id": "2",
+      "name": "Red Bull",
+      "isSponsored": "true",
+      "size": "0.5",
+      "price": "CHF 6.19",
+      "color": "blue"
+    },
+    {
+      "id": "3",
+      "name": "Sprite",
+      "isSponsored": "true",
+      "size": "0.5",
+      "price": "CHF 4.95",
+      "color": "green"
+    },
+    {
+      "id": "4",
+      "name": "Monster Energy",
+      "isSponsored": "true",
+      "size": "0.5",
+      "price": "CHF 4.64",
+      "color": "red"
+    },
+    {
+      "id": "5",
+      "name": "Coca-Cola",
+      "isSponsored": "true",
+      "size": "0.5",
+      "price": "CHF 5.35",
+      "color": "red"
+    },
+    {
+      "id": "6",
+      "name": "Red Bull",
+      "isSponsored": "true",
+      "size": "0.5",
+      "price": "CHF 6.19",
+      "color": "blue"
+    },
+    {
+      "id": "7",
+      "name": "Sprite",
+      "isSponsored": "true",
+      "size": "0.5",
+      "price": "CHF 4.95",
+      "color": "green"
+    },
+    {
+      "id": "8",
+      "name": "Monster Energy",
+      "isSponsored": "true",
+      "size": "0.5",
+      "price": "CHF 4.64",
+      "color": "red"
+    }
+  ]
+}
